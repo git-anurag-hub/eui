@@ -4,9 +4,8 @@
 - Added exports for all EUI component props matching `EuiComponentProps` name pattern. ([#4517](https://github.com/elastic/eui/pull/4517))
 - Added `truncate`, `disabled`, and `emphasize` props to `EuiSideNavItem` ([#4488](https://github.com/elastic/eui/pull/4488))
 - Added `truncate` prop to `EuiSideNav` ([#4488](https://github.com/elastic/eui/pull/4488))
-- Added support for all `color`s of `EuiPanel` ([#4504](https://github.com/elastic/eui/pull/4504))
-- Added `hasBorder` prop to `EuiPanel` ([#4504](https://github.com/elastic/eui/pull/4504))
-- Added `labelProps` prop to `EuiRadio`, `EuiSwitch` and `EuiCheckbox` ([#4516](https://github.com/elastic/eui/pull/4516))
+- Reverted part of [#4509](https://github.com/elastic/eui/pull/4509) and returned `EuiDataGrid`'s background content area to an empty shade ([#4542](https://github.com/elastic/eui/pull/4542))
+- Added `isDisabled` prop to `EuiAvatar` ([#4549](https://github.com/elastic/eui/pull/4549))
 
 **Bug fixes**
 
@@ -20,8 +19,12 @@
 
 **Theme: Amsterdam**
 
-## [`31.7.0`](https://github.com/elastic/eui/tree/v31.7.0)
+- Removed letter-spacing from `euiFont` Sass mixin ([#4488](https://github.com/elastic/eui/pull/4488))	
 
+## [`31.7.0`](https://github.com/elastic/eui/tree/v31.7.0)	## [`31.7.0`](https://github.com/elastic/eui/tree/v31.7.0)
+
+
+- Added `whiteSpace` prop to `EuiCodeBlock`. ([#4475](https://github.com/elastic/eui/pull/4475))
 - Added a light background to `EuiDataGrid` and removed unnecessary height on its container ([#4509](https://github.com/elastic/eui/pull/4509))
 
 **Bug fixes**
